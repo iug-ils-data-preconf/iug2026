@@ -36,3 +36,5 @@ Individual Sessions include:
   Automated Materials Handling (AMH) systems generate valuable operational data, much of which resides in plain-text log files that are rarely analyzed beyond troubleshooting. This ILS-agnostic lightning talk introduces a practical approach for extracting insights directly from AMH logs to better understand item flow, bin utilization, and system behavior.
   
   Using TechLogic as an example, while keeping the methodology applicable to other AMH vendors, the session outlines how libraries can automate the collection of AMH log files from the system’s main application computer and deliver them to a centralized location for analysis using common automation tools such as PowerShell and WinSCP. By examining this data over time, libraries can identify heavily used bins, uncover patterns in items routed to Exceptions, and use volume-based evidence to inform bin redistribution, mapping adjustments, and operational tuning, independently of the ILS.
+
+* __Python Command Line Processing with argv[] and the argparse Module__
