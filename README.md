@@ -38,3 +38,12 @@ Individual Sessions include:
   Using TechLogic as an example, while keeping the methodology applicable to other AMH vendors, the session outlines how libraries can automate the collection of AMH log files from the system’s main application computer and deliver them to a centralized location for analysis using common automation tools such as PowerShell and WinSCP. By examining this data over time, libraries can identify heavily used bins, uncover patterns in items routed to Exceptions, and use volume-based evidence to inform bin redistribution, mapping adjustments, and operational tuning, independently of the ILS.
 
 * __Python Command Line Processing with argv[] and the argparse Module__
+
+__Presenters include:__
+* Derek Brown, Director of IT; Rochester Hills Public Library
+* Bob Gaydos, ILS Administrator; Stark Library
+* Jeremy Goldstein, Data Curation Librarian; Minuteman Library Network
+* Daniel Messer, Integrated Library Systems Administrator; Library Systems & Services
+* Wes Osborn, Executive Director; Central Library Consortium
+* Ray Voelker, Integrated Library Systems Administrator; Cincinnati & Hamilton County Public Library
+* Victor Zuniga, System Administrator; Poudre Libraries
