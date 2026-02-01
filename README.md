@@ -57,5 +57,5 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
 * **Jeremy Goldstein**, Data Curation Librarian: [Minuteman Library Network](https://www.minlib.net/)
 * **Daniel Messer**, Integrated Library Systems Administrator: [Library Systems & Services](https://www.lsslibraries.com/)
 * **Wes Osborn**, Executive Director: [Central Library Consortium](https://clcohio.org/)
-* **Ray Voelker**, Integrated Library Systems Administrator: [https://chpl.org/](https://chpl.org/)
+* **Ray Voelker**, Integrated Library Systems Administrator: [Cincinnati & Hamilton County Public Library](https://chpl.org/)
 * **Victor Zuniga**, System Administrator: [Poudre Libraries](https://poudrelibraries.org/)
