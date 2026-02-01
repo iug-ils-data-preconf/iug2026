@@ -1,9 +1,10 @@
-# iug2026
-IUG 2026 - The Great ILS-Data Preconference: Quick Lessons With Your Peers
+# IUG 2026
+
+## The Great ILS-Data Preconference: Quick Lessons With Your Peers
 
 Ease your way into this year's conference with our all-star assortment of IUG experts who will present a full afternoon of activities for those looking to expand their library data toolbox.  Through a series of mini-talks, some speed geeking and lively conversations, attendees will have opportunities to learn about a wide range of techniques for working with both Sierra and Polaris data.
 
-Individual Sessions include:
+### Individual sessions include
 
 * __DASHboard Confessional: Revealing the secrets of data visualization__
 
@@ -46,12 +47,15 @@ Individual Sessions include:
 * __Python Command Line Processing with argv[] and the argparse Module__ - Python’s [argparse module](https://docs.python.org/3/library/argparse.html) makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv). The argparse module automatically generates help and usage messages. The module will also issue errors when users give the program invalid arguments.
 
   In this session you'll see an example of this module in action and how it can be utilized in a Python program which places holds on the items/bibs in a review file, a program with numerous required and optional arguments.
+  
+* **Thousands of Tables and Four Farthings: Building a (De)Centralized Data System for Multiple Libraries**
 
-__Presenters include:__
-* Derek Brown, Director of IT; Rochester Hills Public Library
-* Bob Gaydos, ILS Administrator; Stark Library
-* Jeremy Goldstein, Data Curation Librarian; Minuteman Library Network
-* Daniel Messer, Integrated Library Systems Administrator; Library Systems & Services
-* Wes Osborn, Executive Director; Central Library Consortium
-* Ray Voelker, Integrated Library Systems Administrator; Cincinnati & Hamilton County Public Library
-* Victor Zuniga, System Administrator; Poudre Libraries
+### Presenters include
+
+* **Derek Brown**, Director of IT: [Rochester Hills Public Library](https://www.rhpl.org/)
+* **Bob Gaydos**, ILS Administrator: [Stark Library](https://www.starklibrary.org/)
+* **Jeremy Goldstein**, Data Curation Librarian: [Minuteman Library Network](https://www.minlib.net/)
+* **Daniel Messer**, Integrated Library Systems Administrator: [Library Systems & Services](https://www.lsslibraries.com/)
+* **Wes Osborn**, Executive Director: [Central Library Consortium](https://clcohio.org/)
+* **Ray Voelker**, Integrated Library Systems Administrator: [https://chpl.org/](https://chpl.org/)
+* **Victor Zuniga**, System Administrator: [Poudre Libraries](https://poudrelibraries.org/)
