@@ -20,3 +20,19 @@ Dashboards are limited to users with Minuteman accounts but you may reach out to
 
 
 # Putting Privacy First: Making Due with Less Data
+## Massachusetts Privacy Law
+[Massachusetts General Laws, Title XII Chapter 80 Section 7](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXII/Chapter78/Section7)\
+[An Act Establishing the Massachusetts Data Privacy Act, Bill S.2619](https://malegislature.gov/Bills/194/S2619)\
+[An Act Establishing the Massachusetts Consumer Data Privacy Act, Bill H.4746](https://malegislature.gov/Bills/194/H4746)\
+
+## Library Policies
+[Minuteman Library Network: Privacy Policy](https://www.minlib.net/policies)\
+[Cambridge Public Library: Privacy and Your Rights](https://www.cambridgema.gov/Departments/cambridgepubliclibrary/aboutus/privacyandyourrights)\
+[Somerville Publich Library: Privacy and Confidentiality](https://somervillepubliclibrary.org/library/policies/privacy-and-confidentiality/)\
+[Wayland Public Library: Privacy Policy](https://waylandlibrary.org/our-library/about/policies/privacy/)
+
+## Minuteman Reports
+[SQL Queries used in Minuteman's Report Builder](https://github.com/Minuteman-Library-Network/SQL-Queries/tree/master/Custom%20reports%20site)\
+[Scripts used to produce reports](https://github.com/Minuteman-Library-Network/Scripts) including updating our [circulation dashboard](https://github.com/Minuteman-Library-Network/Scripts/tree/main/Circulation%20Dashboard) and producing [annual reports](https://github.com/Minuteman-Library-Network/Scripts/tree/main/Annual%20Reports) that are required by Massachusetts\
+[Script for updating census map based reports](https://github.com/Minuteman-Library-Network/Scripts/tree/main/Patron%20Maps).  This requires adding census geoids to patron records and we have [a script for that](https://github.com/Minuteman-Library-Network/Scripts/tree/main/Geocoder) as well.\
+For more on approaches to sending data to vendors, see my 2025 conference presentation [LibraryIQ & You: Collaborative Approaches to Vendor Integrations](https://forum.innovativeusers.org/t/libraryiq-you-collaborative-approaches-to-vendor-integrations/2314)
