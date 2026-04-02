@@ -35,9 +35,7 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
   The Minuteman Library Network has historically taken a privacy first approach to its policies and data retention practices.  We only store a month of circ transaction data in Sierra, take great caution with the data we share with other vendors and refuse to use a number of standard features such as linked patrons.  Massachusetts is now on the verge of implementing a new data minimization focused privacy law that has had us looking at reducing data collection even further (do we really need patron addresses?  Yes, but we thought about it).  Come and hear how we are able to balance these considerations with our vast reporting needs and still manage to operate a successful consortia.
   
 * __Altering the Position of Matter: Fear, Loathing, and Circulation methodology__
-  
-  The actual physical act of circulation is like Cotton-Eyed Joe, because what you’re really interested in is “where does it come from” and “where does it go.” Far too many libraries don’t survey the movement of materials through their facilities to see if there are better, and hopefully easier, ways to get items into the hands of patrons and then back on the shelves thereafter. I’ll walk you through a quick rundown on how process evaluation, logistics, and a whole lotta data can smooth transitions from checkout to shelf and back again.
-  
+    
 * __AMH Insights: Turning Log Files Into Actionable Data__
 
   Automated Materials Handling (AMH) systems generate valuable operational data, much of which resides in plain-text log files that are rarely analyzed beyond troubleshooting. This ILS-agnostic lightning talk introduces a practical approach for extracting insights directly from AMH logs to better understand item flow, bin utilization, and system behavior.
