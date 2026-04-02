@@ -34,7 +34,7 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
   
   The Minuteman Library Network has historically taken a privacy first approach to its policies and data retention practices.  We only store a month of circ transaction data in Sierra, take great caution with the data we share with other vendors and refuse to use a number of standard features such as linked patrons.  Massachusetts is now on the verge of implementing a new data minimization focused privacy law that has had us looking at reducing data collection even further (do we really need patron addresses?  Yes, but we thought about it).  Come and hear how we are able to balance these considerations with our vast reporting needs and still manage to operate a successful consortia.
   
-* __Altering the Position of Matter: Fear, Loathing, and Circulation methodology__
+* __Thousands of Tables and Four Farthings: Building a (De)Centralized Data System for Multiple Libraries__
     
 * __AMH Insights: Turning Log Files Into Actionable Data__
 
