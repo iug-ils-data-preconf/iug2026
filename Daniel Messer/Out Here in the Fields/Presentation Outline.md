@@ -17,7 +17,8 @@
   - And while old ≠ broken, MARC remains a weird, obfuscated, obtuse, and otherwise difficult format to deal with
 - Disclaimer, I'm one of those weirdos who believe that all aspects of the discovery tools, methods, and categorizations should be open and understandable to the reader
   - So it shouldn't be much of a surprise that I think the DDCS can strap an engine block around its waist and Wylie Coyote itself off a desert cliff
-- But before I continue complaining about this stuff, I need to point out something to our Polaris users in the audience, that Bill Schickling and his original team of nerds did something incredibly profound, in that they figured out a way to “database-ize” a MARC record. Every time you open up a MARC record in Polaris, you are pulling data from multiple tables to build it. That MARC record doesn't exist as a singular entity in Polaris, it's scattered all over the place.
+- But before I continue complaining about this stuff, I need to point out something to our Polaris users in the audience, that Bill Schickling and his original team of nerds did something incredibly profound, in that they figured out a way to “database-ize” a MARC record. 
+  - Every time you open up a MARC record in Polaris, you are pulling data from multiple tables to build it. That MARC record doesn't exist as a singular entity in Polaris, it's scattered all over the place.
   - Turns out, you can build the basic MARC record with less than 30 lines of SQL.
 - So yeah, that's great and everything, but MARC is still horrible. Don't even get me started on BIBFRAME
   - But surely there are other ways to catalogue bibliographic information? 
@@ -27,7 +28,6 @@
 
 - We're going to look at a database that handles bibliographic data. In other words, books.
   - But this could work for pretty much any other media as well.
-- And while I've never found a specific name that everyone agrees on for this style of cataloguing, of the names I found, the one I liked the most was “pragmatic cataloguing.”
 - Instead of numbered tags, we're going to use descriptive identifiers.
   - So rather than declaring an ISBN in the 020 tag, subfield a, we're going to put it in a table and identify it as… ISBN.
   - We can do the same with the OCLC number. 
@@ -35,6 +35,8 @@
   - We could tag movies and TV shows with a TMDB or IMDB identifier and we'd call it out as such.
   - Rather than putting titles in a 240 or 245 tag, we'll put it under… Title.
   - Authors go under Author, not 100
+- And while I've never found a specific name that everyone agrees on for this style of cataloguing, of the names I found, the one I liked the most was “pragmatic cataloguing.”
+
 - We're still using a relational database, so yeah, things are still scattered all over the place, but you can still write the SQL that brings all of that together
   - With all that in mind, I'm going to talk about a bibliographic database system that has been in use for 19 years. The database itself is wide open, because the project is free and open source.
 

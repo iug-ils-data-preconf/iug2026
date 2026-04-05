@@ -4,6 +4,7 @@ SELECT
     s.name AS [Series],
     b.series_index AS [Series Position],
     p.name AS [Publisher],
+	DATE(b.pubdate) AS [Pub Date],
     GROUP_CONCAT(i.type || ': ' || i.val, ' | ') AS [Identifiers],
     c.text AS [Summary]
 FROM
@@ -22,8 +23,8 @@ LEFT JOIN -- Pull the summary and comments
     comments c ON (c.book = b.id)
 LEFT JOIN -- Pull the IDs to get any identifiers
     identifiers i ON (i.book = b.id)
-WHERE
-    b.id = 1
+WHERE -- Enter the book id below (from the books table)
+    b.id = 137
 GROUP BY
     b.id,
 	b.title, 
