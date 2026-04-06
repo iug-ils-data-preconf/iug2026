@@ -2,9 +2,12 @@ Resources related to two presentations featured in the Great ILS-Data Pre-Confer
 
 Held April 12, 2026 in Chicago
 
-Daniel Messer
-Integrated Library Systems Administrator 
-Library Systems & Services
+---
+
+Daniel Messer\
+Integrated Library Systems Administrator\
+Library Systems & Services\
+
 daniel.messer@lsslibraries.com
 
 # Out Here in the Fields
