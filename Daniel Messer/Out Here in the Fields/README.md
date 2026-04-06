@@ -6,7 +6,7 @@ Held April 12, 2026 in Chicago
 
 Daniel Messer\
 Integrated Library Systems Administrator\
-Library Systems & Services\
+Library Systems & Services
 
 daniel.messer@lsslibraries.com
 
