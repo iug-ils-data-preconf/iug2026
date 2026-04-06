@@ -25,5 +25,5 @@ You may not believe this, but there is an entire world of  library management sy
 
 This repo includes a SQLite file called ```metadata.db```. This is the same database used during the talk and contains the metadata for the files discussed.
 
-* **Pull Basic Record Through SQLite** - A SQLite query that pulls the basic metadata for a single bibliographic record within the Calibre database
-* **View Basic MARC Record** - A T-SQL query you can run on the Polaris database to pull the basic MARC record straight from the database itself.
+* **Pull Basic Record Through SQLite.sql** - A SQLite query that pulls the basic metadata for a single bibliographic record within the Calibre database
+* **View Basic MARC Record.sql** - A T-SQL query you can run on the Polaris database to pull the basic MARC record straight from the database itself.

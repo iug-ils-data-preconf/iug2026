@@ -26,7 +26,7 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
   
 * __Out Here in the Fields: Lessons Learned from a Different Database__
   
-  You may not believe this, but there is an entire world of library management systems outside professional librarianship, each with their own databases and schemas that bring their own pros and cons. And get this: None of them use MARC. I mean, can you imagine?! Let’s take a quick walk through a project that manages bibliographic data in a completely different way, and what we can take away from that.
+  You may not believe this, but there is an entire world of library management systems outside professional librarianship, each with their own databases and schemas that bring their own pros and cons. And get this: None of them use MARC. I mean, *can you imagine?!* Let’s take a quick walk through a project that manages bibliographic data in a completely different way, and what we can take away from that.
 
 * __Data Lakes/warehouses and storing data extracts__
 
@@ -34,8 +34,6 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
   
   The Minuteman Library Network has historically taken a privacy first approach to its policies and data retention practices.  We only store a month of circ transaction data in Sierra, take great caution with the data we share with other vendors and refuse to use a number of standard features such as linked patrons.  Massachusetts is now on the verge of implementing a new data minimization focused privacy law that has had us looking at reducing data collection even further (do we really need patron addresses?  Yes, but we thought about it).  Come and hear how we are able to balance these considerations with our vast reporting needs and still manage to operate a successful consortia.
   
-* __Thousands of Tables and Four Farthings: Building a (De)Centralized Data System for Multiple Libraries__
-    
 * __AMH Insights: Turning Log Files Into Actionable Data__
 
   Automated Materials Handling (AMH) systems generate valuable operational data, much of which resides in plain-text log files that are rarely analyzed beyond troubleshooting. This ILS-agnostic lightning talk introduces a practical approach for extracting insights directly from AMH logs to better understand item flow, bin utilization, and system behavior.
@@ -46,7 +44,9 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
 
   In this session you'll see an example of this module in action and how it can be utilized in a Python program which places holds on the items/bibs in a review file, a program with numerous required and optional arguments.
   
-* **Thousands of Tables and Four Farthings: Building a (De)Centralized Data System for Multiple Libraries**
+* **Thousands of Tables and Four Farthings: Hacking Your Way to a Better Report** - In the midst of building a centralized data server, we ran into an issue with a report that the Finance Department had been running for years. Nothing was wrong with the report, the problem came about from the *way* they were running it. This new data server is going to need that report, but they're not going to be able to run it the same way. Okay, so we'll rebuild it. But first things first... where does the data come from, how is it pulled from the database, where is the report file, and how does it work?
+
+  Time for a little old school tracking and hacking.
 
 ### Presenters include
 
