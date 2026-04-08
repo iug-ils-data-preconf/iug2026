@@ -30,6 +30,8 @@ Ease your way into this year's conference with our all-star assortment of IUG ex
 
 * __Data Lakes/warehouses and storing data extracts__
 
+  Library data never sits still — and it lives in more places than you think. Records are added, deleted, and weeded every day. Digital resources are circulating outside your ILS, but there's no easy way to connect physical and digital borrowing activity — making it hard to see your library's full data landscape. What if you could capture structured snapshots at regular intervals in open formats that *you* own, not a vendor? This session introduces the data lake concept for libraries: using tools like DuckDB, DuckLake, and Apache Parquet to build an inexpensive, secure, lightweight, and versioned repository of your library data. We'll look at early experiments at CHPL, including an open-source Sierra MARC harvester and an OverDrive checkout ETL, and discuss why data sovereignty matters for libraries planning ahead.
+
 * __Putting Privacy First: Making Due with Less Data__
   
   The Minuteman Library Network has historically taken a privacy first approach to its policies and data retention practices.  We only store a month of circ transaction data in Sierra, take great caution with the data we share with other vendors and refuse to use a number of standard features such as linked patrons.  Massachusetts is now on the verge of implementing a new data minimization focused privacy law that has had us looking at reducing data collection even further (do we really need patron addresses?  Yes, but we thought about it).  Come and hear how we are able to balance these considerations with our vast reporting needs and still manage to operate a successful consortia.
