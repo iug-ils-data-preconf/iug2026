@@ -1,0 +1,82 @@
+~/bin/LocationsServedMaintenance> alias py
+alias py='python3.13'
+
+~/bin/LocationsServedMaintenance> cat argv.py
+import sys
+n = 0
+for arg in sys.argv:
+    print('argv[' + str(n) + '] = ' + arg)
+    n += 1
+exit()
+
+~/bin/LocationsServedMaintenance> py argv.py Shaft Can ya dig it?
+argv[0] = argv.py
+argv[1] = Shaft
+argv[2] = Can
+argv[3] = ya
+argv[4] = dig
+argv[5] = it?
+
+~/bin/LocationsServedMaintenance> py LocationsServedMaintenance.py --help
+usage: python LocationsServedMaintenance.py  [ -d range-of-position-numbers ]  [ -a list-of-location-codes ]  [ -b list-of-branch-codes ]
+
+Output strings which mimic keystrokes, suitable for pasting in Admin Corner's Locations Served groups to delete or add location codes
+
+options:
+  -h, --help            show this help message and exit
+  -d, --delete range-of-position-numbers
+                        Delete a range of location codes by numeric position
+  -a, --add list-of-location-codes
+                        Add a series of location codes
+  -b, --branch list-of-branch-codes
+                        Add a series of location codes associated with the supplied branch codes
+
+   *  range-of-position-numbers can be a compound range like 006,008,020-044,111
+   *  It is the responsibility of the user to provide sufficient leading zeros in the range expression
+   *  list-of-location-codes can be a compound comma-separated list including ranges, LIKE expressions
+      and/or embedded regexes as in 'sqanb,^sq[gt].*$,sqcfu-sqche,%anf'
+   *  If your library uses dashes in its location codes, substitute vertical bars for dashes in ranges
+   *  Use of at least the ^ anchor or the $ anchor is mandatory for regexes
+   *  The presence of a % symbol will trigger treatment as a case-insensitive LIKE expression
+   *  list-of-branch-codes must be one or more integer branch codes or ranges thereof, separated by commas
+   *  The location codes are output in alphabetical order
+
+~/bin/LocationsServedMaintenance> py LocationsServedMaintenance.py -d 08-79
+d08d09d10d11d12d13d14d15d16d17d18d19d20d21d22d23d24d25d26d27d28d29d30d31d32d33d34d35d36d37d38d39d40d41d42d43d44d45d46d47d48d49
+d50d51d52d53d54d55d56d57d58d59d60d61d62d63d64d65d66d67d68d69d70d71d72d73d74d75d76d77d78d79
+
+~/bin/LocationsServedMaintenance> py LocationsServedMaintenance.py -d 08-79,111
+d08d09d10d11d12d13d14d15d16d17d18d19d20d21d22d23d24d25d26d27d28d29d30d31d32d33d34d35d36d37d38d39d40d41d42d43d44d45d46d47d48d49
+d50d51d52d53d54d55d56d57d58d59d60d61d62d63d64d65d66d67d68d69d70d71d72d73d74d75d76d77d78d79d111
+
+~/bin/LocationsServedMaintenance> py LocationsServedMaintenance.py -a '^[cs]m.*'
+acmaglacmcglacmtglasm
+asm2ugasma
+asmaafasmaanasmabdasmabhasmabiasmabkasmabmasmabnasmabrasmabsasmabwasmabzasmacaasmacbasmaccasmaceasmacfasmacgasmachasmaciasmacj
+asmaclasmacmasmacoasmacpasmacrasmacsasmacvasmacwasmacxasmacyasmaczasmadaasmadcasmadfasmadnasmadoasmadsasmadtasmadvasmadxasmaea
+asmaecasmaedasmaefasmaenasmaeoasmaepasmaesasmaetasmaevasmaexasmafhasmafiasmafkasmafmasmafrasmafsasmafwasmafzasmagcasmaglasmagm
+asmagnasmailasmakgasmakiasmalbasmalfasmaliasmalmasmalnasmalrasmalwasmamcasmamoasmampasmamxasmanbasmanfasmanoasmaofasmaonasmapf
+asmaphasmapmasmappasmaprasmapsasmaqlasmareasmarrasmascasmasdasmasrasmavgasmawoasmaxfasmaxhasmaxiasmaxkasmaxmasmaxnasmaxrasmaxs
+asmaxwasmaxzasmazzasmc
+asmcafasmcanasmcbrasmcbxasmccmasmcdfasmcdnasmcdxasmcedasmcefasmcenasmcexasmcfbasmcfcasmcfeasmcflasmcfpasmcfrasmcfuasmcfyasmcfz
+asmcgcasmcglasmcgmasmcgnasmcgtasmchbasmchcasmcheasmchfasmchnasmchpasmchrasmchuasmcjfasmcjnasmcjuasmckrasmcksasmclfasmcnbasmcnf
+asmcofasmconasmcpcasmcpeasmcpfasmcpgasmcpkasmcplasmcpnasmcprasmcptasmcpxasmcqlasmcscasmcslasmctfasmctnasmcvfasmcvgasmcvnasmcwc
+asmcwnasmcwoasmcxbasmcxeasmcxfasmcxnasmcxpasmczbasmczzasmt
+asmtafasmtanasmtdfasmtdnasmtfcasmtfhasmtfiasmtfkasmtfmasmtfrasmtfsasmtfwasmtfzasmtgcasmtglasmtgmasmtgnasmtlpasmtnbasmtnfasmtof
+asmtonasmtpfasmtphasmtpmasmtprasmtpsasmtqlasmtscasmttfasmttnasmtvdasmtwoasmtzbasmtzzasmxaqasmxeqasmxsd
+
+~/bin/LocationsServedMaintenance> py LocationsServedMaintenance.py -b 10
+acmaglacmcglacmtglasm
+asma
+asmaafasmaanasmabdasmabhasmabiasmabkasmabmasmabnasmabrasmabsasmabwasmabzasmacaasmacbasmaccasmaceasmacfasmacgasmachasmaciasmacj
+asmaclasmacmasmacoasmacpasmacrasmacsasmacvasmacwasmacxasmacyasmaczasmadaasmadcasmadfasmadnasmadoasmadsasmadtasmadvasmadxasmaea
+asmaecasmaedasmaefasmaenasmaeoasmaepasmaesasmaetasmaevasmaexasmafhasmafiasmafkasmafmasmafrasmafsasmafwasmafzasmagcasmaglasmagm
+asmagnasmailasmakgasmakiasmalbasmalfasmaliasmalmasmalnasmalrasmalwasmamcasmamoasmampasmamxasmanbasmanfasmanoasmaofasmaonasmapf
+asmaphasmapmasmappasmaprasmapsasmaqlasmareasmarrasmascasmasdasmasrasmavgasmawoasmaxfasmaxhasmaxiasmaxkasmaxmasmaxnasmaxrasmaxs
+asmaxwasmaxzasmazzasmc
+asmcafasmcanasmcbrasmcbxasmccmasmcdfasmcdnasmcdxasmcedasmcefasmcenasmcexasmcfbasmcfcasmcfeasmcflasmcfpasmcfrasmcfuasmcfyasmcfz
+asmcgcasmcglasmcgmasmcgnasmcgtasmchbasmchcasmcheasmchfasmchnasmchpasmchrasmchuasmcjfasmcjnasmcjuasmckrasmcksasmclfasmcnbasmcnf
+asmcofasmconasmcpcasmcpeasmcpfasmcpgasmcpkasmcplasmcpnasmcprasmcptasmcpxasmcqlasmcscasmcslasmctfasmctnasmcvfasmcvgasmcvnasmcwc
+asmcwnasmcwoasmcxbasmcxeasmcxfasmcxnasmcxpasmczbasmczzasmt
+asmtafasmtanasmtdfasmtdnasmtfcasmtfhasmtfiasmtfkasmtfmasmtfrasmtfsasmtfwasmtfzasmtgcasmtglasmtgmasmtgnasmtlpasmtnbasmtnfasmtof
+asmtonasmtpfasmtphasmtpmasmtprasmtpsasmtqlasmtscasmttfasmttnasmtvdasmtwoasmtzbasmtzzasmxaqasmxeqasmxsd
